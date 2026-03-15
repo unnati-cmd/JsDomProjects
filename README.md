@@ -19,6 +19,57 @@ Instead of just watching tutorials, I believe in *learning by building*, experim
 
 ## 📌 Projects Included
 
+
+## 🗂️ Notes Stack UI (DOM + LocalStorage)
+
+A dynamic notes application built using **Vanilla JavaScript and DOM manipulation**.  
+The app allows users to create, view, and manage profile-style notes with category indicators. Notes persist across page refreshes using **LocalStorage**.
+
+---
+
+### ✨ Features
+- Create notes with:
+  - Image URL
+  - Full Name
+  - Home Town
+  - Purpose
+  - Category selection
+- Stack-based card interface (only the top cards are visible)
+- Active card highlighting
+- Category indicator synced with the selected card
+- Data persistence using **LocalStorage**
+- Dynamic card creation using `createElement()`
+- Basic form validation and reset handling
+
+---
+
+### 🧠 Concepts Practiced
+- DOM manipulation
+- Event handling
+- Dynamic element creation
+- Dataset attributes (`dataset`)
+- LocalStorage data persistence
+- UI state synchronization
+- CSS stacking and transformations
+
+---
+
+### 🛠️ Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+
+---
+
+### 🚀 Key Learnings
+This project helped strengthen my understanding of:
+- How the **DOM works internally**
+- Managing **application state without frameworks**
+- Synchronizing **UI, JavaScript state, and browser storage**
+- Structuring interactive front-end applications from scratch
+
+---
+
 ### 🎮 Tic Tac Toe
 
 A classic two-player game built using pure JavaScript DOM manipulation.
@@ -86,6 +137,12 @@ These projects are not just games — they represent my effort to:
 
 ```
 JS-DOM-Projects
+|
+|__ Call Notes App
+|   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── image
 │
 ├── RockPaperScissor
 │   ├── index.html
