@@ -9,6 +9,12 @@ Instead of just watching tutorials, I believe in *learning by building*, experim
 
 ## 🌐 Live Projects
 
+🔗 Call Notes
+[https://js-dom-projects-tek7.vercel.app/Call%20Notes%20App/index.html](https://js-dom-projects-tek7.vercel.app/Call%20Notes%20App/index.html)
+
+🔗 Calculator
+[https://js-dom-projects-tek7.vercel.app/Calculator/index.html](https://js-dom-projects-tek7.vercel.app/Calculator/index.html)
+
 🔗 Tic Tac Toe
 [https://js-dom-projects-delta.vercel.app/TicTacToe/index.html](https://js-dom-projects-delta.vercel.app/TicTacToe/index.html)
 
@@ -17,7 +23,8 @@ Instead of just watching tutorials, I believe in *learning by building*, experim
 
 ---
 
-**📌 Projects Included** 
+##📌 Projects Included
+
 
 
 ## 🗂️ Notes Stack UI (DOM + LocalStorage)
