@@ -32,7 +32,6 @@ Instead of just watching tutorials, I believe in *learning by building*, experim
 A dynamic notes application built using **Vanilla JavaScript and DOM manipulation**.  
 The app allows users to create, view, and manage profile-style notes with category indicators. Notes persist across page refreshes using **LocalStorage**.
 
----
 
 **✨ Features**
 - Create notes with:
@@ -48,7 +47,6 @@ The app allows users to create, view, and manage profile-style notes with catego
 - Dynamic card creation using `createElement()`
 - Basic form validation and reset handling
 
----
 
 **🧠 Concepts Practiced** 
 - DOM manipulation
@@ -59,16 +57,8 @@ The app allows users to create, view, and manage profile-style notes with catego
 - UI state synchronization
 - CSS stacking and transformations
 
----
-
-**🛠️ Tech Stack** 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla JS)**
-
----
-
 **🚀 Key Learnings**
+
 This project helped strengthen my understanding of:
 - How the **DOM works internally**
 - Managing **application state without frameworks**
@@ -90,12 +80,7 @@ A classic calculator built using **HTML, CSS, and JavaScript** with real-time ca
 **🧠 Concepts Used**
 - DOM manipulation
 - Event handling
-- State management (`currentNumber`, `previousNumber`, `operator`)
-
-**🛠️ Tech Stack**
-- HTML  
-- CSS  
-- JavaScript  
+- State management (`currentNumber`, `previousNumber`, `operator`) 
 
 **📌 Learning**
 Built to understand how calculators work internally and to improve DOM + logic skills.
