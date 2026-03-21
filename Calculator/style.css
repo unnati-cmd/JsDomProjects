@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'DSEG7 Modern'; 
+    src: url('./fonts-DSEG_v046/DSEG14-Classic/DSEG14Classic-Bold.woff') format('woff2'),
+         url('./fonts-DSEG_v046/DSEG14-Modern/DSEG14Modern-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQcAAACUCAMAAACp8BzMAAAAaVBMVEUAAAAkJCQGBgYgICAtLS09PT0LCwsREREqKipWVlYcHBwUFBQ6Ojo2NjZiYmJfX1+mpqZLS0uXl5eenp6QkJDMzMzGxsbU1NRDQ0NQUFC3t7eKiop7e3uBgYGvr6+9vb1zc3Pf39/p6ekc37pxAAADC0lEQVR4nO3dbZuiIBQGYEHQ1EpTt7Q3nf3/P3KnmU977WyZHOGAz/05kcwQzgGM0sg/SUJeYtSSl7k8fYhERlriJapy0gKtULuo/EVaYhXtSMujkAv5+kNiT3rODWlpNMY2dl0FFrrex7YbgBPNsYn7lFruj3zUds83kbiWVs8nq5GiGPJKxyNtR8+Sv65DoTzsYy8guyvXVWAhySd0aAEWEfMb4TmhaUeM/kJjBBAceXBdAx42x2XCRVKhW/8gqjvTUIJdcdsK13VggT5LBWuW9eihPmzQvAAAAADAbMWUWVVPBDLIS65VZ1RA42V++h9Je+wNDtfR6UpWl2/pqIlLnER1hcHRfaSp55FKYVIhRzysMsDq+Ni2LKGmfnp5qkTSEFYmNxsAODBnHUjx8qD9MKNYl+T2/WPSS/3qQqT2J8jlpe2xTtqcGWbtVW19Up6acRMtLt0h1wcAFsVoc740DQbFD+fBwyXxC9DejQ/ClmRYufEFEy0nERrt+cPlI4xUpamsxgo4AJgq5xgj+h9ZhLE9Trw1e2x392sQ/SPVm237dBhuYdwQpgSGs2smbkE0B8YShnmfnwnX+90xWXdWNW7Pn1V2z6eynyPRyvGdW1q+DteT3T3AuOovTmYCAwAAAISlEGTD4fJGVZIDek82yhx+ux6w8qCwiGBVZLdlEilxq6gRYnxIsgPuBwAAeAIzGL8Jw81YQpHjzQjA0S+fQxyERqyF+JHcBfFqm41phj3pQ4j9SNczLrjAdfhm/L8A+HS3PIOIKTmcZx45tqQVcW32yy6vcxpm2XkelyWqfXwfvO6t3RqaPGMx3ryeEl8diX5GOfFvuOO5gFJtLYfR2pPd87Hld3MK3umxR8uX0usHOAAArJk8cNlWIC1dditkx2U/Fn0Kc2cpuX8vbRff3vtFEuXHDkvpcFm0/HzvSbe0WDhggGk91iXaXo5KMB6Fdsf6xSdisgvVMk7n6POrVIl+I1Wvy2ch52ZuOscG9SpY/s6+t/XTPfQUl47M4vbtar7qc0tFgP8AhjwSfGKF9QYAAAAASUVORK5CYII=');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main div{
+    border-radius: 10px;
+}
+
+#ans{
+    background-color:#2E4C6D;
+    width: 50%;
+    height: 15%;
+    font-size: 50px;
+    text-align: right;
+    color: #8EC5FF;
+    font-family: 'DSEG7 Modern', monospace;
+    padding: 7px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    box-shadow:0 0 15px rgba(142,197,255,0.4);
+}
+
+.container{
+    background-color: #1B2A41;
+    width: 50%;
+    height: 60%;
+}
+
+.game{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px;
+    padding: 15px;
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#8FBBAF;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+    background-color:#3A6EA5;
+    color:#E3F2FD;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.btn:hover{
+    background-color: #6FA3D2;
+    transform: scale(1.05);
+}
+
+.reset{
+    grid-column: span 2;
+}
+
+.equal{
+    grid-column: span 2;
+}

@@ -17,7 +17,7 @@ Instead of just watching tutorials, I believe in *learning by building*, experim
 
 ---
 
-## 📌 Projects Included
+**📌 Projects Included** 
 
 
 ## 🗂️ Notes Stack UI (DOM + LocalStorage)
@@ -27,7 +27,7 @@ The app allows users to create, view, and manage profile-style notes with catego
 
 ---
 
-### ✨ Features
+**✨ Features**
 - Create notes with:
   - Image URL
   - Full Name
@@ -43,7 +43,7 @@ The app allows users to create, view, and manage profile-style notes with catego
 
 ---
 
-### 🧠 Concepts Practiced
+**🧠 Concepts Practiced** 
 - DOM manipulation
 - Event handling
 - Dynamic element creation
@@ -54,14 +54,14 @@ The app allows users to create, view, and manage profile-style notes with catego
 
 ---
 
-### 🛠️ Tech Stack
+**🛠️ Tech Stack** 
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla JS)**
 
 ---
 
-### 🚀 Key Learnings
+**🚀 Key Learnings**
 This project helped strengthen my understanding of:
 - How the **DOM works internally**
 - Managing **application state without frameworks**
@@ -70,7 +70,32 @@ This project helped strengthen my understanding of:
 
 ---
 
-### 🎮 Tic Tac Toe
+## 🧮 Calculator Project
+
+A classic calculator built using **HTML, CSS, and JavaScript** with real-time calculations and a clean UI.
+
+**🚀 Features**
+- Basic operations (+, −, ×, ÷)
+- Continuous chaining (e.g., `7 + 8 + 5`)
+- DEL and RESET functionality
+- Dynamic display updates
+
+**🧠 Concepts Used**
+- DOM manipulation
+- Event handling
+- State management (`currentNumber`, `previousNumber`, `operator`)
+
+**🛠️ Tech Stack**
+- HTML  
+- CSS  
+- JavaScript  
+
+**📌 Learning**
+Built to understand how calculators work internally and to improve DOM + logic skills.
+
+---
+
+## 🎮 Tic Tac Toe
 
 A classic two-player game built using pure JavaScript DOM manipulation.
 
@@ -91,7 +116,7 @@ A classic two-player game built using pure JavaScript DOM manipulation.
 
 ---
 
-### ✊ Rock Paper Scissor
+## ✊ Rock Paper Scissor
 
 A simple browser-based Rock-Paper-Scissors game where the user plays against the computer.
 
@@ -137,6 +162,11 @@ These projects are not just games — they represent my effort to:
 
 ```
 JS-DOM-Projects
+|
+|__ Calculator
+|   ├── index.html
+│   ├── style.css│
+│   └── script.js
 |
 |__ Call Notes App
 |   ├── index.html
