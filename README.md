@@ -23,7 +23,7 @@ Instead of just watching tutorials, I believe in *learning by building*, experim
 
 ---
 
-##📌 Projects Included
+## 📌 Projects Included
 
 
 
